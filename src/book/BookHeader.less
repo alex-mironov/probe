@@ -1,0 +1,40 @@
+@import '../shared/colors.less';
+
+.Authors {
+  margin-bottom: 15px;
+
+  .Authors__item {
+    &:not(:last-of-type) {
+      margin-right: 5px;
+    }
+  }
+
+  .Authors__item-link {
+    color: #fff;
+
+    &:hover,
+    &:active {
+      color: #ff3900;
+    }
+  }
+}
+
+.Genre {
+  &:not(:last-of-type) {
+    margin-right: 5px;
+  }
+
+  &__link {
+    padding: 8px 25px;
+    color: #fff;
+    border: 0;
+    background: @brandSecondary;
+
+    &:hover,
+    &:active {
+      color: #fff;
+      background: #ff3900;
+      border: 0;
+    }
+  }
+}

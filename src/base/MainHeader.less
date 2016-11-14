@@ -1,0 +1,29 @@
+@import '../shared/colors';
+
+.Main-header {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #3c3e42;
+  color: #fff;
+  padding: 30px 0;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.07);
+
+  &__title {
+    margin: 0;
+  }
+
+  &__link {
+    color: #fff;
+
+    &:hover {
+      color: @brand;
+    }
+
+    &:visited {
+      color: #fff;
+    }
+  }
+}

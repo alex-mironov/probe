@@ -1,0 +1,24 @@
+.Book-item {
+  border: 1px solid #f2f2f2;
+  counter-increment: section;
+  color: #3c3e42;
+  padding: 1px 25px;
+  background: #fff;
+  display: block;
+
+  &:before {
+    font-weight: 700;
+    color: #ff5c2d;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    content: counter(section) ".";
+    display: inline-block;
+    margin-right: 25px;
+  }
+
+  &__link {
+    display: inline-block;
+    padding: 15px 0;
+  }
+}

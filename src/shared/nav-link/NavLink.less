@@ -1,0 +1,17 @@
+@import '../colors.less';
+
+.Nav-link {
+  text-decoration: none;
+  color: @brand;
+  cursor: pointer;
+
+  &:hover {
+    color: darken(@brand, 5%);
+  }
+
+  &:hover,
+  &:visited,
+  &:focus {
+    text-decoration: none;
+  }
+}
