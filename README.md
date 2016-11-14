@@ -7,5 +7,5 @@ Only 2 pages are implemented at the moment:
   
   
 ## Run
-```npm install
-npm start```
+- `npm install`
+- `npm start`
